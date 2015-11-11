@@ -1,3 +1,8 @@
+#!/bin/bash
+# chkconfig: 2345 13 87
+# description: Runs ActiveMq
+
+
 start() {
   /opt/activemq/bin/activemq start
 }
